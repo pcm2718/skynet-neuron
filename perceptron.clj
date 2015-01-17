@@ -27,7 +27,7 @@
   (loop [perceptron initialperceptron]
     (let [next-perceptron (perceptron-train-datum perceptron invec target)]
       ; This line of code is kind of sketchy.
-      (if (every? identity (map < (map (fn [b a] (Math/abs (- b a))) next-perceptron perceptron) [0.1 0.1]))
+      (if (every? identity (map < (map (fn [b a] (Math/abs (- b a))) next-perceptron perceptron) [0.001 0.001]))
         perceptron
         (recur next-perceptron)))))
 
