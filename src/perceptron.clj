@@ -1,3 +1,6 @@
+(gen-class
+ :name Perceptron)
+
 ;;; Reimplement this with function return via closure later.
 ;;; The weird immutable stuff could make this slow, find a workaround if possible.
 
