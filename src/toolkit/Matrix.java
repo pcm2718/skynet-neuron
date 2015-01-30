@@ -3,6 +3,8 @@
 // See http://creativecommons.org/publicdomain/zero/1.0/
 // ----------------------------------------------------------------
 
+package toolkit;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.TreeMap;
